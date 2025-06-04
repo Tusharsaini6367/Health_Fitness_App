@@ -85,7 +85,6 @@ class _IntroScreenState extends State<IntroScreen> {
                 onBack: currentPage > 0 ? goBack : null,
               ),
 
-            // Title + Widget
             if (currentStep.showInSteps && currentStep.title != null)
               CustomIntroTitle(title: currentStep.title!),
 
